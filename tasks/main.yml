@@ -1,18 +1,6 @@
 ---
 - name: Install Lighthouse
   block:
-    - name: Install git packages
-      become: true
-      ansible.builtin.yum:
-        name:
-          - git
-
-    - name: Install nginx packages
-      become: true
-      ansible.builtin.yum:
-        name:
-          - nginx
-
     - name: Clone lighthouse repo
       become: true
       ansible.builtin.git:
