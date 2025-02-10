@@ -6,7 +6,9 @@ Deploy Lighthouse system using ansible.
 Requirements
 ------------
 
-Ansible 2.9+
+Ansible >= 2.9
+Nginx >= 1.20
+Git >= 2.40
 
 Example Playbook
 ----------------
