@@ -1,4 +1,4 @@
-Role Name
+Lighthouse
 =========
 
 Deploy Lighthouse system using ansible.
